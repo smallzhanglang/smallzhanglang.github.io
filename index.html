@@ -165,9 +165,9 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案:"></a>解决方案:</h2><p>在<code>/etc/ppp</code>目录下新建<code>options</code>文件</p>
-<figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo <span class="keyword">vim</span> /etc/ppp/<span class="keyword">options</span></div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo vim /etc/ppp/options</div></pre></td></tr></table></figure>
 <p>在<code>options</code>文件中输入:</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">plugin L2TP<span class="selector-class">.ppp</span></div><div class="line">l2tpnoipsec</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">plugin L2TP.ppp</div><div class="line">l2tpnoipsec</div></pre></td></tr></table></figure>
 <p>然后保存退出，问题就能解决了，快去试试吧~</p>
 
       
@@ -175,7 +175,7 @@
     <div class="article-info article-info-index">
       
       <a href="/2016/10/27/mac-vpn-l2tp 服务器无响应/" class="archive-article-date">
-  	<time datetime="2016-10-27T07:38:33.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-10-27</time>
+  	<time datetime="2016-10-27T08:04:28.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-10-27</time>
 </a>
       
       
