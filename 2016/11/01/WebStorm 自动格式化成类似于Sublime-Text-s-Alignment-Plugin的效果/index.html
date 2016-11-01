@@ -6,17 +6,27 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | smallzhanglang</title>
+  <title>自动格式化成类似于Sublime Text&#39;s Alignment Plugin的效果 | smallzhanglang</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="毕业于XX，就职于XX，擅长XX，Node.js工程师一枚。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="smallzhanglang">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="要实现如下格式的代码块：
+123456user : &amp;#123;  name      : &quot;Bruce Wayne&quot;,  alias     : &quot;Batman&quot;,  favColour : &quot;black&quot;,  dob       : &quot;unknown&quot;&amp;#125;
+##解决方法: 
+点击Webstorm -&amp;gt; Settings (Preferences on Mac) -&amp;gt;Code">
+<meta property="og:type" content="article">
+<meta property="og:title" content="自动格式化成类似于Sublime Text's Alignment Plugin的效果">
+<meta property="og:url" content="http://yoursite.com/2016/11/01/WebStorm 自动格式化成类似于Sublime-Text-s-Alignment-Plugin的效果/index.html">
 <meta property="og:site_name" content="smallzhanglang">
-<meta property="og:description" content="毕业于XX，就职于XX，擅长XX，Node.js工程师一枚。">
+<meta property="og:description" content="要实现如下格式的代码块：
+123456user : &amp;#123;  name      : &quot;Bruce Wayne&quot;,  alias     : &quot;Batman&quot;,  favColour : &quot;black&quot;,  dob       : &quot;unknown&quot;&amp;#125;
+##解决方法: 
+点击Webstorm -&amp;gt; Settings (Preferences on Mac) -&amp;gt;Code">
+<meta property="og:updated_time" content="2016-11-01T15:06:54.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="smallzhanglang">
-<meta name="twitter:description" content="毕业于XX，就职于XX，擅长XX，Node.js工程师一枚。">
+<meta name="twitter:title" content="自动格式化成类似于Sublime Text's Alignment Plugin的效果">
+<meta name="twitter:description" content="要实现如下格式的代码块：
+123456user : &amp;#123;  name      : &quot;Bruce Wayne&quot;,  alias     : &quot;Batman&quot;,  favColour : &quot;black&quot;,  dob       : &quot;unknown&quot;&amp;#125;
+##解决方法: 
+点击Webstorm -&amp;gt; Settings (Preferences on Mac) -&amp;gt;Code">
   
     <link rel="alternative" href="/atom.xml" title="smallzhanglang" type="application/atom+xml">
   
@@ -144,108 +154,89 @@
 </nav>
 
       <div class="body-wrap">
+        <article id="post-WebStorm 自动格式化成类似于Sublime-Text-s-Alignment-Plugin的效果" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
         
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/11/01/WebStorm 自动格式化成类似于Sublime-Text-s-Alignment-Plugin的效果/" class="archive-article-date">
-  	<time datetime="2016-11-01T14:49:51.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-11-01</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/11/01/WebStorm 自动格式化成类似于Sublime-Text-s-Alignment-Plugin的效果/">自动格式化成类似于Sublime Text&#39;s Alignment Plugin的效果</a>
+    <h1 class="article-title" itemprop="name">
+      自动格式化成类似于Sublime Text&#39;s Alignment Plugin的效果
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>要实现如下格式的代码块：</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="string">user :</span> &#123;</div><div class="line">  <span class="string">name      :</span> <span class="string">"Bruce Wayne"</span>,</div><div class="line">  <span class="string">alias     :</span> <span class="string">"Batman"</span>,</div><div class="line">  <span class="string">favColour :</span> <span class="string">"black"</span>,</div><div class="line">  <span class="string">dob       :</span> <span class="string">"unknown"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>##解决方法: </p>
+<p>点击<code>Webstorm -&gt; Settings (Preferences on Mac) -&gt;Code Style -&gt; JavaScript</code></p>
+<p><em><code>&quot;Spaces&quot; tab -&gt; Other -&gt; Before property name-value separator &#39;:&#39;</code> 勾选此选项
+</em><code>&quot;Other&quot; tab -&gt; Align object properties = On colon</code><br>*<code>&quot;Other&quot; tab -&gt; Align &#39;var&#39; statements and assignments = Align multiple &#39;var&#39; statements and assignments</code></p>
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      <a href="/2016/11/01/WebStorm 自动格式化成类似于Sublime-Text-s-Alignment-Plugin的效果/" class="archive-article-date">
+  	<time datetime="2016-11-01T14:49:51.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-11-01</time>
+</a>
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags"></i>
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/WebStorm-Sublime-Plugin-Auto-formatting/">WebStorm Sublime Plugin Auto-formatting</a></li></ul>
 	</div>
 
-          
+      
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/10/27/mac-vpn-l2tp 服务器无响应/" class="archive-article-date">
-  	<time datetime="2016-10-27T08:04:28.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-10-27</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/10/27/mac-vpn-l2tp 服务器无响应/">MAC VPN 连接 L2TP 报错:VPN服务器没有响应</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-          
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2016/10/27/mac-vpn-l2tp 服务器无响应/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">MAC VPN 连接 L2TP 报错:VPN服务器没有响应</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/10/27/hello-world/" class="archive-article-date">
-  	<time datetime="2016-10-27T06:40:02.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-10-27</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/10/27/hello-world/">Hello World</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
 
-    
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">Share to: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+	    <a class="jiathis_button_twitter"></a>
+	    <a class="jiathis_button_plus"></a> 
+	    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="//v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+
 
 
       </div>
@@ -268,8 +259,8 @@
 		mathjax: false,
 		animate: true,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
